@@ -1,0 +1,87 @@
+body {
+    background-color : skyblue
+}
+.quizContainer{
+    background-color: black;
+    border-radius: 8px;
+    width: 75%;
+    margin: auto;
+    margin-top: 190px;
+    padding-top: 5px;
+    position: relative;
+}
+h1 {
+    font-family: cursive;
+    text-align: center;
+    color: white;
+    font-size: 35px;
+}
+ul {
+    list-style : none;
+    color: white;
+}
+li{
+    font-family: cursive;
+    font-size: 20px;
+    color: white;
+}
+input[type=radio]{
+    border: 0px;
+    width: 20px;
+    height: 2em;
+    color: white;
+}
+p{
+    font-family: cursive;
+    color: white;
+}
+.nextButton {
+    border-radius: 6px;
+    width: 150px;
+    height: 40px;
+    text-align: center;
+    color: white;
+    font-family: cursive;
+    font-weight: bold;
+    position: relative;
+    margin: auto;
+    padding-top: 20px;
+    background-color: red;
+}
+.question{
+    font-family: cursive;
+    font-size: 2em;
+    width: 90%;
+    height: auto;
+    margin: auto;
+    border-radius: 6px;
+    background-color: red;
+    text-align: center;
+    color: white;
+}
+.quizMessage{
+    background-color: darkblue;
+    border-radius: 6px;
+    width=30%;
+    margin: auto;
+    text-align: center;
+    padding: 2px;
+    font-family: cursive;
+    color: white;
+}
+.choiceList {
+    font-family: cursive;
+    color: red;
+}
+.result{
+width: 30%;
+    height: auto;
+    border-radius: 6px;
+    background-color: red;
+    margin: auto;
+    margin-bottom: 35px;
+    text-align: center;
+    font-family: cursive;
+    color: white;
+    
+}
